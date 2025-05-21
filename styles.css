@@ -164,17 +164,17 @@ header nav a:hover {
     color: white;
     border-radius: 12px;
     padding: 2rem;
-    max-width: 1000px;     
-    margin: 1rem auto;   
+    max-width: 1100px;
+    /* max-height: 100px;      */
+    margin: 2rem auto;   
     text-align: center;
   }
 .cta .inner-content{
     display: flex;
     align-items: center; 
     justify-content: space-between; 
-    gap: 2rem; 
-    padding: 20px;
-    margin: 20px;
+    padding: 0 10%;
+    margin: 5px;
     
 }
 .cta-content{
@@ -191,14 +191,13 @@ header nav a:hover {
     border: 2px solid white;
     padding: 0.75rem 1.5rem;
     border-radius: 8px;
-    cursor: pointer;
+    cursor: pointer;    
 }
+
 .cta button:hover {
     background-color: #F9FAF8;
     color: #3882F6;
 }
-
-
 
 
 /* Footer */
